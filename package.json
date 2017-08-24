@@ -1,11 +1,16 @@
 {
-  "name": "react",
-  "version": "1.0.0",
-  "description": "",
+  "name": "curso-react-redux",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Exercicios do curso de react e redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Fernando Fabricio dos Santos <ferfabricio@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
